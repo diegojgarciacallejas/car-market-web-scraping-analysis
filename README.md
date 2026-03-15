@@ -134,29 +134,45 @@ Compares how frequently selected brands appear in each country's listings, allow
 
 ---
 
-## Visualizations
+## Visualizations & Analysis
+
+The analysis covers **4 countries**, **6 brands**, and **3 analytical dimensions**. For each market, equivalent visualizations were generated — the charts below are representative examples from the Spanish market. All charts are available by running the analysis notebooks.
+
+The three dimensions analyzed were:
+
+| Dimension | What it shows |
+|---|---|
+| Registration year | How recent the available stock is per brand and country |
+| Mileage vs Price | How km driven affects listing price per brand |
+| Brand volume | How many listings each brand has in each national market |
+
+---
 
 ### Brand Listing Volume by Country
 
-Number of listings found for each brand per country. SEAT shows a significantly stronger presence in Spain, consistent with its local market dominance.
-
 ![Brand Listing Volume by Country](assets/images/country_model.png)
+
+A clear pattern emerges: **brands tend to be more heavily listed in their country of origin or strongest regional market**. SEAT, for example, appears far more frequently in Spanish listings than in any other country — a direct reflection of its local market dominance.
 
 ---
 
 ### Mileage vs Price (Spain)
 
-Relationship between mileage and listing price for selected brands in the Spanish market. A clear negative trend is visible across all brands.
-
 ![Mileage vs Price Spain](assets/images/km_price_spain.png)
+
+Across all brands and markets, **higher mileage consistently correlates with lower listing prices**. However, the rate of depreciation varies by brand — some manufacturers hold their value better at high mileage than others, which can be a useful signal when comparing listings across countries.
 
 ---
 
 ### Registration Year Distribution by Brand (Spain)
 
-Distribution of listings by registration year for each brand. Most brands show a concentration in recent years (2023–2024).
-
 ![Registration Year Distribution](assets/images/years.png)
+
+Registration year distribution **varies significantly depending on the brand**, with some showing a strong concentration in very recent years (2023–2024) while others have a more spread-out profile. This reflects differences in fleet renewal rates and marketplace supply across brands and markets.
+
+---
+
+> These are three examples of the visualizations generated. Equivalent charts exist for all four countries and six brands. By combining these three dimensions it is possible to draw cross-market conclusions — such as whether domestic brands are priced lower in their home market, or which brands depreciate fastest with mileage.
 
 ---
 
@@ -248,9 +264,6 @@ notebooks/cars_by_country.ipynb
 ## Authors
 
 - Diego J. García Callejas
-- Héctor Fernández Cano
-- Pablo de Tarso Pedraz García
-- Pedro Álvaro Martinez Gutierrez
 
 ---
 
