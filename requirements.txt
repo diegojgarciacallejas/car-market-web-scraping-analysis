@@ -1,0 +1,7 @@
+selenium==4.25.0
+webdriver-manager
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
