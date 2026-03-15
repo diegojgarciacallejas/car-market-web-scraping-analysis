@@ -264,6 +264,9 @@ notebooks/cars_by_country.ipynb
 ## Authors
 
 - Diego J. García Callejas
+- Héctor Fernández Cano
+- Pablo de Tarso Pedraz García
+- Pedro Álvaro Martinez Gutierrez
 
 ---
 
